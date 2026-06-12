@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎓 Brilliant Coaching Classes | शिक्षा से सफलता तक</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">🎓 Brilliant <span>Coaching</span></div>
+        <nav>
+            <a href="#home">होम</a>
+            <a href="#courses">कोर्सेज</a>
+            <a href="#features">विशेषताएं</a>
+            <a href="#contact" class="nav-btn">एडमिशन ओपन</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <span class="badge">Session 2026-27 Admission Open</span>
+            <h1>बेहतर शिक्षा, <span>बेहतर भविष्य</span></h1>
+            <p>हमारा उद्देश्य केवल पढ़ाना नहीं, बल्कि आपको सफलता के शिखर तक पहुँचाना है। आज ही अपनी सीट सुरक्षित करें।</p>
+            <div class="hero-btns">
+                <a href="#courses" class="btn-primary">हमारे कोर्सेज देखें</a>
+                <a href="#contact" class="btn-secondary">संपर्क करें</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>हमारी <span>विशेषताएं</span></h2>
+        <p class="section-sub">हम क्यों हैं आपकी सफलता के लिए सबसे बेस्ट विकल्प</p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon">👨‍🏫</div>
+                <h3>अनुभवी शिक्षक</h3>
+                <p>हर विषय के लिए हमारे पास एक्सपर्ट और अनुभवी टीचर्स की टीम है जो हर टॉपिक को आसान बनाती है।</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📝</div>
+                <h3>साप्ताहिक टेस्ट</h3>
+                <p>हर संडे को स्पेशल टेस्ट और असेसमेंट ताकि बच्चों की प्रोग्रेस का सही पता चल सके।</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">💻</div>
+                <h3>डिजिटल क्लासरूम</h3>
+                <p>आधुनिक तरीके से पढ़ाई के लिए स्मार्ट और डिजिटल टूल्स का उपयोग किया जाता है।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses-section">
+        <h2>हमारे <span>मुख्य कोर्सेज</span></h2>
+        <p class="section-sub">चुनें अपनी क्लास और शुरू करें बेहतरीन तैयारी</p>
+
+        <div class="courses-grid">
+            <div class="course-card">
+                <h3>कक्षा 9वीं से 10वीं</h3>
+                <p class="course-desc">गणित, विज्ञान और अंग्रेजी की विशेष तैयारी (NCERT / बोर्ड पैटर्न)।</p>
+                <span class="course-badge">Daily Classes</span>
+            </div>
+            <div class="course-card">
+                <h3>कक्षा 11वीं से 12वीं</h3>
+                <p class="course-desc">Physics, Chemistry, Maths और Biology के लिए स्पेशल कॉन्सेप्ट क्लासेस।</p>
+                <span class="course-badge">Board + Foundation</span>
+            </div>
+            <div class="course-card">
+                <h3>कंप्यूटर और नेटवर्किंग</h3>
+                <p class="course-desc">कंप्यूटर बेसिक, हार्डवेयर, नेटवर्किंग और स्किल ओरिएंटेड स्पेशल कोर्सेज।</p>
+                <span class="course-badge">Technical Skill</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>हमसे <span>संपर्क करें</span></h2>
+        <p class="section-sub">कोई भी सवाल हो, हमें नीचे संदेश भेजें या सीधे कोचिंग आएं</p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <h4>📍 पता (Address):</h4>
+                    <p>मेन मार्केट रोड, भोपाल (म.प्र.)</p>
+                </div>
+                <div class="info-box">
+                    <h4>📞 मोबाइल नंबर:</h4>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="info-box">
+                    <h4>✉️ ईमेल:</h4>
+                    <p>info@brilliantcoaching.com</p>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="event.preventDefault(); alert('धन्यवाद! आपका संदेश हमें मिल गया है।');">
+                <input type="text" placeholder="आपका पूरा नाम" required>
+                <input type="tel" placeholder="आपका मोबाइल नंबर" required>
+                <select required>
+                    <option value="">क्लास/कोर्स चुनें</option>
+                    <option value="9-10">कक्षा 9वीं - 10वीं</option>
+                    <option value="11-12">कक्षा 11वीं - 12वीं</option>
+                    <option value="tech">कंप्यूटर कोर्सेज</option>
+                </select>
+                <textarea placeholder="आपका संदेश (Message)" rows="4"></textarea>
+                <button type="submit" class="btn-submit">संदेश भेजें 🚀</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Brilliant Coaching Classes. All Rights Reserved. Designed with ❤️</p>
+    </footer>
+
+</body>
+</html>
